@@ -1,4 +1,5 @@
 import requests
+import json
 from requests.exceptions import RequestException
 
 # Configuration
@@ -19,7 +20,9 @@ try:
     response.raise_for_status()
 
     json_string_content = response.text
-    print(json_string_content)
+    json_data = json.loads(json_string_content)
+    pretty_json = json.dumps(json_data, indent=2)
+    print(pretty_json)
 
 except RequestException as error:
     print(f"\n Failed to fetch the page: {error}\n")
