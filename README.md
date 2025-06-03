@@ -46,4 +46,6 @@ python javascript_page.py
 python basic_page_using_crawling_api.py
 ```
 
+---
+
 Copyright 2025 Crawlbase
