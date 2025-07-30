@@ -1,6 +1,6 @@
 # Crawlbase vs Traditional Scrapers: Why API-Based Scraping Wins
 
-We invite you to explore our [blog](https://crawlbase.com/blog/crawlbase-vs-traditional-scrapers-why-api-scraping-wins/) for more details.
+We invite you to explore our [blog](https://crawlbase.com/blog/crawlbase-vs-traditional-scrapers-why-api-scraping-wins/?utm_source=github&utm_medium=referral&utm_campaign=scraperhub&ref=gh_scraperhub) for more details.
 
 ## Setting Up Your Coding Environment
 
@@ -45,6 +45,9 @@ python javascript_page.py
 ```bash
 python basic_page_using_crawling_api.py
 ```
+
+🛡 Disclaimer
+This repository is for educational purposes only. Please make sure you comply with the Terms of Service of any website you scrape. Use this responsibly and only where permitted.
 
 ---
 
